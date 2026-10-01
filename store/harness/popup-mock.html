@@ -1,0 +1,13 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><link rel="stylesheet" href="../../popup.css"></head>
+<body>
+  <div id="left"><input id="search" type="search" placeholder="Filter windows and tabs"><ul id="windows"></ul></div>
+  <div id="fly"><div class="hint">Hover a window to see its tabs</div></div>
+  <script src="mock.js"></script>
+  <script src="../../popup.js"></script>
+  <script>
+    const p = new URLSearchParams(location.search);
+    if (p.get("q")) { const s = document.getElementById("search"); s.value = p.get("q"); s.dispatchEvent(new Event("input")); }
+    setTimeout(() => { const h = p.get("hover"); if (h !== null) document.querySelectorAll("li.win")[+h]?.dispatchEvent(new Event("mouseenter")); }, 200);
+  </script>
+</body></html>

@@ -54,7 +54,11 @@ function renderList() {
       el("span", "count", `${w.tabs.length} tab${w.tabs.length === 1 ? "" : "s"}`)
     );
     li.append(head);
-    li.addEventListener("mouseenter", () => showTabs(w));
+    li.addEventListener("mouseenter", () => {
+      list.querySelector("li.sel")?.classList.remove("sel");
+      li.classList.add("sel");
+      showTabs(w);
+    });
     li.addEventListener("click", () => {
       chrome.windows.update(w.id, { focused: true });
       window.close();
