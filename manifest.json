@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Peek-a-Tab",
+  "version": "1.0.0",
+  "description": "View every browser window along with its tab count. Hover over a window to list its tabs; click a tab to jump straight to it.",
+  "permissions": ["tabs", "storage"],
+  "background": { "service_worker": "background.js" },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_title": "Peek-a-Tab",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png"
+    }
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": { "default": "Alt+W", "mac": "Alt+W" },
+      "description": "Open Peek-a-Tab"
+    }
+  }
+}

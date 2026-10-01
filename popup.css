@@ -1,0 +1,19 @@
+:root { color-scheme: light dark; }
+body { margin: 0; width: 720px; height: 420px; display: flex; font: 13px -apple-system, system-ui, sans-serif; }
+#left { width: 300px; flex: none; display: flex; flex-direction: column; box-sizing: border-box; }
+#search { margin: 8px 8px 4px; padding: 5px 8px; font: inherit; }
+ul { list-style: none; margin: 0; padding: 4px; overflow-y: auto; flex: 1; }
+li.win { border-radius: 6px; padding: 6px 8px; cursor: pointer; }
+li.win:hover, li.win.sel { background: rgba(127, 127, 127, 0.18); }
+li.win.current { font-weight: 600; }
+.head { display: flex; align-items: center; gap: 6px; }
+.head .title { flex: 1; min-width: 0; }
+.favicon { width: 14px; height: 14px; flex: none; }
+.head .title { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.head .count { opacity: 0.6; flex: none; }
+#fly { flex: 1; min-width: 0; overflow-y: auto; padding: 8px 12px; border-left: 1px solid rgba(127, 127, 127, 0.3); }
+#fly .hint { opacity: 0.5; padding-top: 4px; }
+#fly div.tab { display: flex; align-items: center; gap: 6px; cursor: pointer; border-radius: 4px; padding: 2px 4px; opacity: 0.85; }
+#fly div.tab:hover { background: rgba(127, 127, 127, 0.18); }
+#fly div.tab.active { font-weight: 600; opacity: 1; }
+#fly div.tab span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
