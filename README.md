@@ -10,7 +10,11 @@ titles in a side panel; click a tab to bring its window to the front with that t
 - Uses the `tabs` permission to read tab titles and URLs, and `storage` to remember window order for the current browser session
 - Collects nothing and sends nothing anywhere; all processing happens locally
 
-## Install (unpacked)
+## Install
+
+**[Get Peek-a-Tab from the Chrome Web Store](https://chromewebstore.google.com/detail/peek-a-tab/npdhpnfmnpaalajejnfjjnbjgidgdoij)**
+
+## Install from source (unpacked)
 
 1. Open `chrome://extensions` (or `opera://extensions`)
 2. Turn on **Developer mode**
