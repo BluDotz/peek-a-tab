@@ -4,6 +4,7 @@ A small browser extension for Chromium-based browsers (Chrome, Opera, Edge, Brav
 It shows every browser window with its tab count. Hover a window to see all of its tab
 titles in a side panel; click a tab to bring its window to the front with that tab showing.
 
+- See which tabs are playing audio, and mute them one by one or all at once
 - Filter windows and tabs by typing in the search box
 - Open with the toolbar button or **Option+W** (change it at `chrome://extensions/shortcuts`)
 - Windows are listed most recently used first (the current window is always on top)
@@ -22,7 +23,7 @@ titles in a side panel; click a tab to bring its window to the front with that t
 
 ## Privacy
 
-Peek-a-Tab reads your open window and tab titles/URLs only to display them in its popup.
+Peek-a-Tab reads your open window and tab titles, URLs and sound state only to display them in its popup, and mutes a tab only when you ask it to.
 No data is stored, collected or transmitted.
 
 ## Licence
