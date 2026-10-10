@@ -7,7 +7,7 @@ Peek-a-Tab
 View every browser window along with its tab count. Hover to list its tabs; click a tab to jump straight to it.
 
 ## Description
-Lost a tab somewhere in a sea of windows? Peek-a-Tab shows every browser window in one tidy list, with a tab count for each. Hover over a window to see the titles of all its tabs in a panel beside it, then click any tab to jump straight to it. The window comes to the front with that tab showing.
+Lost a tab somewhere in a sea of windows, or hunting for the one that's making noise? Peek-a-Tab shows every browser window in one tidy list, with a tab count for each and a speaker icon on any window with a tab playing sound. Hover over a window to see the titles of all its tabs in a panel beside it, then click any tab to jump straight to it, or click its speaker to mute it. The window comes to the front with that tab showing.
 
 • See all your windows at a glance, with site icons and tab counts
 • Hover a window to list every tab inside it
@@ -40,3 +40,6 @@ Show a list of the user's open browser windows and their tabs, and let the user 
 - Screenshots (1280x800): store/screenshots/ (4 images)
 - Small promo tile (440x280): store/promo-tile-440x280.png
 - Icon (128x128): icons/icon128.png
+
+## Changelog text (Opera changelog field, GitHub release)
+See ../CHANGELOG.md
