@@ -17,3 +17,12 @@ li.win.current { font-weight: 600; }
 #fly div.tab:hover { background: rgba(127, 127, 127, 0.18); }
 #fly div.tab.active { font-weight: 600; opacity: 1; }
 #fly div.tab span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+#mute-all { margin: 0 8px 4px; padding: 5px 8px; font: inherit; cursor: pointer; }
+#mute-all[hidden] { display: none; }
+.head .playing { display: flex; color: #2f6df6; flex: none; }
+.speaker { width: 14px; height: 14px; }
+#fly div.tab span { flex: 1; min-width: 0; }
+#fly div.tab.audible { opacity: 1; }
+#fly button.mute { flex: none; display: flex; align-items: center; background: none; border: 0; border-radius: 4px; padding: 2px 3px; color: #2f6df6; cursor: pointer; }
+#fly button.mute:hover { background: rgba(127, 127, 127, 0.25); }
+#fly button.mute.is-muted { color: inherit; opacity: 0.55; }

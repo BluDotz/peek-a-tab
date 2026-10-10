@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Peek-a-Tab",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "View every browser window along with its tab count. Hover over a window to list its tabs; click a tab to jump straight to it.",
   "permissions": ["tabs", "storage"],
   "background": { "service_worker": "background.js" },
